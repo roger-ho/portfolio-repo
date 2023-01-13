@@ -1,6 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
 
-(function () {
+function initSmoothScroll(container) {
   var locomotive = new LocomotiveScroll({
    el: document.querySelector("[data-scroll-container]"),
    smooth: true,
