@@ -218,3 +218,4 @@ html.has-scroll-smooth {
     top: 0;
     bottom: 0;  
 }
+
