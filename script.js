@@ -148,9 +148,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
   // Avoid flash of unstyled content
   gsap.set("[text-split]", { opacity: 1 });
 });
-</script>
 
-<script>
 const init = () => {
   const marquee = document.querySelector('[wb-data="marquee"]');
   if (!marquee) {
