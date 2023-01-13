@@ -16,7 +16,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 // Wait 2 seconds then calculate the new page height
 setTimeout(() => {  
-	locoScroll.update();
+	LocomotiveScroll.update();
 }, 2000);
 
   locomotive.on("scroll", () => {
